@@ -1,0 +1,82 @@
+.career-section {
+  padding: 6rem 2rem 4rem;
+  background-color: #f0f4f8;
+}
+
+.career-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.career-container h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #333;
+}
+
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background-color: #61dafb;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -1px;
+}
+
+.timeline-item {
+  padding: 10px 40px;
+  position: relative;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.timeline-item:nth-child(odd) {
+  left: 0;
+}
+
+.timeline-item:nth-child(even) {
+  left: 50%;
+}
+
+.timeline-content {
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.timeline-content h3 {
+  margin: 0;
+  color: #333;
+}
+
+.timeline-content h4 {
+  margin: 5px 0;
+  color: #666;
+}
+
+.timeline-content .year {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #61dafb;
+  color: white;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  margin: 10px 0;
+}
+
+.description {
+  margin: 0.5rem 0;
+  line-height: 1.6;
+  color: #666;
+  text-align: left;
+}
