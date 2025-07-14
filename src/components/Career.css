@@ -80,3 +80,64 @@
   color: #666;
   text-align: left;
 }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .timeline::before {
+    left: 8px;
+  }
+
+  .timeline-item {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 20px;
+    margin-bottom: 2rem;
+  }
+
+  .timeline-item:nth-child(even),
+  .timeline-item:nth-child(odd) {
+    left: 0;
+  }
+
+  .timeline-content {
+    padding: 15px;
+  }
+
+  .career-container h2 {
+    font-size: 2rem;
+  }
+
+  .timeline-content h3 {
+    font-size: 1.2rem;
+  }
+
+  .timeline-content h4 {
+    font-size: 1rem;
+  }
+
+  .timeline-content .year {
+    font-size: 0.8rem;
+  }
+
+  .description {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .career-section {
+    padding: 4rem 1rem 2rem;
+  }
+
+  .career-container h2 {
+    font-size: 1.75rem;
+  }
+
+  .timeline-content h3 {
+    font-size: 1rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+}
